@@ -1,3 +1,39 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+.footer{
+    border: 1px solid black;
+    text-align: center;
+}
+
 .card{
     border: 1px solid black;
     border-radius: 10px;
@@ -10,51 +46,79 @@
 }
 
 .card .card-image{
-  max-width: 60%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .card .card-title{
-  font-family: Arial;
-  margin: 0;
-  color: rgb(119, 199, 0);
+    font-family: Arial;
+    margin: 0;
+    color: rgb(119, 199, 0);
 }
 
 .card .card-text {
-  font-family: Arial;
-  color: hsl(0, 0%, 80%);
+    font-family: Arial;
+    color: hsl(0, 0%, 80%);
 }
 
 .student{
-  font-family: Arial, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  border: 1px solid hsl(0, 0%, 80%);
-
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
 }
 
 .student p{
-  margin: 0;
+    margin: 10px ;
 }
 
 .welcome-message{
-  font-family: Arial;
-  font-size: 2em;
-  background-color: hsl(120, 100%, 60%);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0;
+    font-family: Arial;
+    font-size: 2em;
+    background-color: hsl(120, 100%, 60%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
 }
 
 .login-prompt{
-  font-family: Arial;
-  font-size: 2em;
-  background-color: hsl(0, 100%, 60%);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0;
+    font-family: Arial;
+    font-size: 2em;
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.fruit-container{
+    width: 50%;
+    text-align: center;
+}
+
+.fruits-list{
+    font-family: Arial;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fruits-list li{
+    margin: 5px;
+    border: 1px solid hsl(120, 100%, 60%);
+    padding: 10px;
 }
