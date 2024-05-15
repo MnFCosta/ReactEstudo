@@ -1,1 +1,1 @@
-Repositório para estudo e consulta futura da biblioteca React.Js
+Repositório para estudo e consulta futura da biblioteca React 
