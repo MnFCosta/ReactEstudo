@@ -11,6 +11,7 @@ import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
 import Hooks from './Hooks.jsx'
 import Counter from './Counter.jsx'
+import OnChangeEvent from './OnChangeEvent.jsx'
 
 function App() {
     const fruits = [
@@ -34,6 +35,7 @@ function App() {
         </div>
         <div className='container'>
           <ProfilePicture/>
+          <OnChangeEvent/>
           <Hooks/>
           <Counter/>
         </div>
