@@ -7,6 +7,8 @@ import Inline  from './Inline.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import FruitsList from './FruitsList.jsx'
+import ButtonClick from './ButtonClick.jsx'
+import ProfilePicture from './ProfilePicture.jsx'
 
 function App() {
     const fruits = [
@@ -28,8 +30,12 @@ function App() {
         <div className='container'>
           <UserGreeting isLoggedIn={true} username="Manoer"/>
         </div>
+        <div className='container'>
+          <ProfilePicture/>
+        </div>
         <FruitsList items={fruits}/>
         <FruitsList items={fruits2}/>
+        
         <div className='container'>
           <Card/>
           <Card/>

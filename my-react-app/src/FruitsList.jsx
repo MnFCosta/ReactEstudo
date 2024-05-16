@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function FruitsList(props){
     const itemList = props.items;
 
@@ -30,6 +32,20 @@ function FruitsList(props){
             </div> 
         </div>
     )
+}
+
+FruitsList.propTypes = {
+    items: PropTypes.arrayOf(PropTypes.shape(
+        {
+            id: PropTypes.number,
+            name: PropTypes.string,
+            calories: PropTypes.number
+        }
+    ))
+}
+
+FruitsList.defaultProps = {
+    items: [],
 }
 
 export default FruitsList;
