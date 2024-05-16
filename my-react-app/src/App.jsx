@@ -9,6 +9,8 @@ import UserGreeting from './UserGreeting.jsx'
 import FruitsList from './FruitsList.jsx'
 import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import Hooks from './Hooks.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
     const fruits = [
@@ -32,6 +34,8 @@ function App() {
         </div>
         <div className='container'>
           <ProfilePicture/>
+          <Hooks/>
+          <Counter/>
         </div>
         <FruitsList items={fruits}/>
         <FruitsList items={fruits2}/>
