@@ -13,6 +13,7 @@ import Hooks from './Hooks.jsx'
 import Counter from './Counter.jsx'
 import OnChangeEvent from './OnChangeEvent.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import StateObjects from './StateObjects,.jsx'
 
 function App() {
     const fruits = [
@@ -37,28 +38,10 @@ function App() {
         <div className="container">
           <ColorPicker/>
         </div>
-        <div className='container'>
-          <ProfilePicture/>
-          <OnChangeEvent/>
-          <Hooks/>
+        <div className="container">
           <Counter/>
+          <StateObjects/>
         </div>
-        <FruitsList items={fruits}/>
-        <FruitsList items={fruits2}/>
-        
-        <div className='container'>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-        </div>
-        <div className='container'>
-          <Student name= "Pitoco" age={3} isStudent={true}/>
-          <Student/>
-          <Student/>
-          <Student/>
-        </div>
-        <Footer/>
       </>
     );
 }

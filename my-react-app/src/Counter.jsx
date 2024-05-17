@@ -5,7 +5,8 @@ function Counter() {
     const [num, changeNum] = useState(0);
 
     const minusNum = () => {
-        changeNum(num - 1)
+        //decrementing with and updater function
+        changeNum(n => n - 1)
     };
 
     const resetNum = () => {
@@ -13,6 +14,7 @@ function Counter() {
     };
 
     const plusNum = () => {
+        //incrementing normally
         changeNum(num + 1)
     };
 
