@@ -14,6 +14,7 @@ import Counter from './Counter.jsx'
 import OnChangeEvent from './OnChangeEvent.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import StateObjects from './StateObjects,.jsx'
+import StateArrays from './StateArrays.jsx'
 
 function App() {
     const fruits = [
@@ -41,6 +42,7 @@ function App() {
         <div className="container">
           <Counter/>
           <StateObjects/>
+          <StateArrays/>
         </div>
       </>
     );
