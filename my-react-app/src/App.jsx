@@ -12,6 +12,7 @@ import ProfilePicture from './ProfilePicture.jsx'
 import Hooks from './Hooks.jsx'
 import Counter from './Counter.jsx'
 import OnChangeEvent from './OnChangeEvent.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 function App() {
     const fruits = [
@@ -32,6 +33,9 @@ function App() {
         <Header></Header>
         <div className='container'>
           <UserGreeting isLoggedIn={true} username="Manoer"/>
+        </div>
+        <div className="container">
+          <ColorPicker/>
         </div>
         <div className='container'>
           <ProfilePicture/>
