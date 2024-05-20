@@ -17,6 +17,8 @@ import StateObjects from './StateObjects,.jsx'
 import StateArrays from './StateArrays.jsx'
 import StateObjectArray from './StateObjectArray.jsx'
 import Routine from './Routine.jsx'
+import UseEffectHook from './UseEffectHook.jsx'
+import UseEffectWindow from './UseEffectWindow.jsx'
 
 function App() {
     const fruits = [
@@ -39,12 +41,16 @@ function App() {
           <UserGreeting isLoggedIn={true} username="Manoer"/>
         </div>
         <div className="container">
+            <UseEffectWindow/>
+        </div>
+        <div className="container">
           <Routine/>
         </div>
         <div className="container">
           <ColorPicker/>
         </div>
         <div className="container">
+          <UseEffectHook/>
           <Counter/>
           <StateObjects/>
           <StateArrays/>
