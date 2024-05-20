@@ -16,6 +16,7 @@ import ColorPicker from './ColorPicker.jsx'
 import StateObjects from './StateObjects,.jsx'
 import StateArrays from './StateArrays.jsx'
 import StateObjectArray from './StateObjectArray.jsx'
+import Routine from './Routine.jsx'
 
 function App() {
     const fruits = [
@@ -38,13 +39,16 @@ function App() {
           <UserGreeting isLoggedIn={true} username="Manoer"/>
         </div>
         <div className="container">
+          <Routine/>
+        </div>
+        <div className="container">
+          <ColorPicker/>
+        </div>
+        <div className="container">
           <Counter/>
           <StateObjects/>
           <StateArrays/>
           <StateObjectArray/>
-        </div>
-        <div className="container">
-          <ColorPicker/>
         </div>
       </>
     );
