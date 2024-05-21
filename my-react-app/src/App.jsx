@@ -20,6 +20,7 @@ import Routine from './Routine.jsx'
 import UseEffectHook from './UseEffectHook.jsx'
 import UseEffectWindow from './UseEffectWindow.jsx'
 import DigitalClock from './DigitalClock.jsx'
+import UseContextA from './UseContextA.jsx'
 
 function App() {
     const fruits = [
@@ -49,6 +50,9 @@ function App() {
         </div>
         <div className="container">
           <Routine/>
+        </div>
+        <div className="container">
+          <UseContextA/>
         </div>
         <div className="container">
           <Counter/>
