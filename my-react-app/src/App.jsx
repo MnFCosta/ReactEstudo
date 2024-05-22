@@ -21,6 +21,7 @@ import UseEffectHook from './UseEffectHook.jsx'
 import UseEffectWindow from './UseEffectWindow.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import UseContextA from './UseContextA.jsx'
+import UseRef from './UseRef.jsx'
 
 function App() {
     const fruits = [
@@ -41,6 +42,9 @@ function App() {
         <Header></Header>
         <div className='container'>
           <UserGreeting isLoggedIn={true} username="Manoer"/>
+        </div>
+        <div className="container">
+            <UseRef/>
         </div>
         <div className="container">
             <DigitalClock/>

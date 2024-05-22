@@ -5,6 +5,7 @@ export const UserContext = createContext();
 
 function UseContextA(){
     const [user, setUser] = useState('Maner')
+    
     return(
         <div className="box">
             <h1>Component A</h1>
