@@ -22,6 +22,7 @@ import UseEffectWindow from './UseEffectWindow.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import UseContextA from './UseContextA.jsx'
 import UseRef from './UseRef.jsx'
+import Stopwatch from './Stopwatch.jsx'
 
 function App() {
     const fruits = [
@@ -44,7 +45,11 @@ function App() {
           <UserGreeting isLoggedIn={true} username="Manoer"/>
         </div>
         <div className="container">
-            <UseRef/>
+            <Stopwatch/>
+            <Stopwatch/>
+            <Stopwatch/>
+            <Stopwatch/>
+            <Stopwatch/>
         </div>
         <div className="container">
             <DigitalClock/>

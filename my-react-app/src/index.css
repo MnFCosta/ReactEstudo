@@ -229,3 +229,77 @@ input[type="color"]{
     width: 100%;
     padding: 10px;
 }
+
+.stopwatch{
+    height: 200px;
+    width: 11%;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 100vw;
+    gap: 20px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 75%);
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 5px;
+    
+}
+
+.controls button{
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.start-button{
+    background-color: hsl(120, 100%, 45%);
+}
+
+.start-button:hover{
+    background-color: hsl(120, 100%, 40%);
+}
+
+.stop-button{
+    background-color: hsl(0, 100%, 45%);
+}
+
+.stop-button:hover{
+    background-color: hsl(0, 100%, 40%);
+
+}
+
+.reset-button{
+    background-color: hsl(194, 100%, 45%);
+}
+
+.reset-button:hover{
+    background-color: hsl(194, 100%, 40%);
+
+}
